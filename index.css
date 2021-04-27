@@ -1,0 +1,123 @@
+*{
+    padding:0;
+    margin:0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    background-color: #EEE;
+}
+
+.container{
+    max-width: 1000px;
+    margin:0px auto;
+    padding:10px;
+    background-color: rgb(213, 230, 233);
+}
+
+.profile-picture{
+    width:100px;
+    height: 120px;
+    border-radius: 50px;
+    float:left;
+    border:2px solid rgb(213, 230, 233);
+}
+
+.Profile-bio{
+    float:left;
+    padding:30px 25px;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#11999e;
+}
+
+.header-contact{
+    float:right;
+    padding:30px;
+    font-weight: 600;
+}
+
+.header-contact a{
+    text-decoration: none;
+    color:#11999e;
+    font-size: 15px;
+}
+
+.header-contact a:hover{
+    text-decoration: underline;
+    color:tomato;
+}
+
+.clear-div{
+    clear:both;
+}
+
+hr{
+    border: solid rgb(3, 1, 1) 5px;
+    margin:20px auto;
+    border-bottom: none;
+}
+
+.personal-information{
+
+}
+
+
+.personal-heading,.work-heading,.education-heading{
+    width:30%;
+    float:left;
+}
+.adrress,.work-details,.education-skills{
+    width: 70%;
+    float:left;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.work-information{
+
+}
+
+.common-hr{
+    border:1px solid black;
+    border-bottom:none;
+    margin:20px auto;
+    width:100%;
+}
+
+.left-skills{
+    width:50%;
+    float:left;
+    font-weight: 600;
+    text-align: justify;
+    
+}
+
+.right-skills{
+    width:50%;
+    float:right;
+    font-weight: 600;
+    text-align: justify;
+}
+
+.footer-container{
+     color:darkgray;
+     background-color:black;
+     text-align:center;
+     padding:10px;
+}
+
+.footer-container a{
+     margin:20px;
+     text-decoration: none;
+     color:green;
+}
+
+.footer-container a:hover{
+     color:tomato;
+}
+
+.footer-container p{
+     margin-top:10px;
+}
